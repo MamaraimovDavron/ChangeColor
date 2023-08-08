@@ -1,5 +1,7 @@
 const colorsBox = document.getElementById('colorsBox');
-const colorText = document.getElementById("color-text")
+const colorText = document.getElementById("color-text");
+
+colorsBox.innerHTML = "";
 
 const addColor = () => {
     const color = colorText.value;
