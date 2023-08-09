@@ -2,7 +2,12 @@ input{
     max-width: 300px;
 }
 
+
 .color-box{
     height: 160px;
     background: grey;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: end;
 }

@@ -5,4 +5,8 @@ input {
 .color-box {
   height: 160px;
   background: grey;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: end;
 }/*# sourceMappingURL=style.css.map */
